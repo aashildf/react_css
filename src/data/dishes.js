@@ -1,4 +1,7 @@
 
+import soup from "/soup.jpg";
+
+
 
 export const dishes = [
   {
@@ -7,7 +10,7 @@ export const dishes = [
     pris: "159 kr",
     ingredienser: "Spaghetti, kjøttsaus, parmesan",
     kategori: "Hovedrett",
-    image: "/spaghetti.jpg",
+    image:{soup},
   },
   {
     id: 2,
