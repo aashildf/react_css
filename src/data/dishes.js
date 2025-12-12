@@ -1,5 +1,15 @@
 
 import soup from "/soup.jpg";
+import spaghetti from "/spaghetti.jpg";
+import pizza from "/pizza.jpg";
+import sushi from  "/sushi.jpg";
+import salad from "/salad.jpg";
+import taco from "/taco.jpg";
+import brownie from "/brownie.jpg";
+import pancake from "/pancake.jpg";
+import shrimp from "/shrimp.jpg";
+import entrecote from "/entrecote.jpg";
+import sjokolade from "/sjokolade.jpg";
 
 
 
@@ -10,7 +20,7 @@ export const dishes = [
     pris: "159 kr",
     ingredienser: "Spaghetti, kjøttsaus, parmesan",
     kategori: "Hovedrett",
-    image:{soup},
+    image: { spaghetti },
   },
   {
     id: 2,
@@ -18,7 +28,7 @@ export const dishes = [
     pris: "129 kr",
     ingredienser: "Kylling, fløte, gulrøtter, selleri",
     kategori: "Forrett",
-    image: "/soup.jpg",
+    image: { soup },
   },
   {
     id: 3,
@@ -26,7 +36,7 @@ export const dishes = [
     pris: "169 kr",
     ingredienser: "Tomatsaus, mozzarella, basilikum",
     kategori: "Hovedrett",
-    image: "/pizza.jpg",
+    image: {pizza},
   },
   {
     id: 4,
@@ -34,7 +44,7 @@ export const dishes = [
     pris: "229 kr",
     ingredienser: "Laks, tunfisk, reker, ris",
     kategori: "Hovedrett",
-    image: "/sushi.jpg",
+    image:{sushi},
   },
   {
     id: 5,
@@ -42,7 +52,7 @@ export const dishes = [
     pris: "139 kr",
     ingredienser: "Romanosalat, kylling, parmesan, dressing",
     kategori: "Forrett",
-    image: "/salad.jpg",
+    image: {salad},
   },
   {
     id: 6,
@@ -50,7 +60,7 @@ export const dishes = [
     pris: "89 kr",
     ingredienser: "Brownie, vaniljeis, sjokoladesaus",
     kategori: "Dessert",
-    image: "/brownie.jpg",
+    image: {brownie},
   },
   {
     id: 7,
@@ -58,7 +68,7 @@ export const dishes = [
     pris: "199 kr",
     ingredienser: "Kjøttdeig, mais, ost, guacamole",
     kategori: "Hovedrett",
-    image: "/taco.jpg",
+    image: {taco},
   },
   {
     id: 8,
@@ -66,7 +76,7 @@ export const dishes = [
     pris: "99 kr",
     ingredienser: "Pannekaker, jordbærsyltetøy, sukker",
     kategori: "Dessert",
-    image: "/pancake.jpg",
+    image: {pancake},
   },
   {
     id: 9,
@@ -74,7 +84,7 @@ export const dishes = [
     pris: "149 kr",
     ingredienser: "Reker, sitron, dill, brød",
     kategori: "Forrett",
-    image: "/shrimp.jpg",
+    image: {shrimp},
   },
   {
     id: 10,
@@ -82,7 +92,7 @@ export const dishes = [
     pris: "289 kr",
     ingredienser: "Entrecôte, asparges, poteter, peppersaus",
     kategori: "Hovedrett",
-    image: "/entrecote.jpg",
+    image: {entrecote},
   },
   {
     id: 11,
@@ -90,6 +100,6 @@ export const dishes = [
     pris: "125 kr",
     ingredienser: "Sjokolade, med krem",
     kategori: "Dessert",
-    image: "/sjokolade.jpg",
+    image: {sjokolade},
   },
 ];
