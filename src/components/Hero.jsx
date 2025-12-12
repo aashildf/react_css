@@ -1,9 +1,10 @@
+import logo from "/J-logon.png";
 export default function Hero() {
   return (
     <div className="flex flex-col items-center justify-center text-center mt-12">
       <div className=" mt-0 w-140 h-50 ">
         <img
-          src="%PUBLIC_URL%/J-logon.png"
+          src={logo}
           alt="Signaturrett"
           className="object-cover w-full h-full"
         />
