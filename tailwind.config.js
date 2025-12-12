@@ -16,6 +16,7 @@ module.exports = {
         primary: "#D1793E",
         "background-light": "#f8f5f6",
         "background-dark": "#221013",
+        "hover-teal":"teal-500",
       },
       fontFamily: {
         display: ["Space Grotesk", "sans-serif"],

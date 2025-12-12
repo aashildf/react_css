@@ -18,8 +18,7 @@ export function Footer({ scrollToSection }) {
               La Maison Joblòp
             </h3>
             <p className="text-[#E9DFCF] mb-6 leading-relaxed">
-              Crafting exceptional dining experiences since 1998. Where culinary
-              excellence meets refined elegance.
+              Design av lekker mat siden 2025. 
             </p>
             {/* Social Media Links */}
             <div className="flex gap-3">
@@ -27,7 +26,7 @@ export function Footer({ scrollToSection }) {
                 href="https://facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-[#D1793E] transition-colors"
+                className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-teal-800 transition-colors"
                 aria-label="Facebook"
               >
                 <Facebook size={18} />
@@ -36,7 +35,7 @@ export function Footer({ scrollToSection }) {
                 href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-[#D1793E] transition-colors"
+                className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-teal-800 transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram size={18} />
@@ -45,7 +44,7 @@ export function Footer({ scrollToSection }) {
                 href="https://twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-[#D1793E] transition-colors"
+                className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-teal-800 transition-colors"
                 aria-label="Twitter"
               >
                 <Twitter size={18} />
@@ -54,7 +53,7 @@ export function Footer({ scrollToSection }) {
                 href="https://youtube.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-[#D1793E] transition-colors"
+                className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-teal-800 transition-colors"
                 aria-label="YouTube"
               >
                 <Youtube size={18} />
@@ -63,7 +62,7 @@ export function Footer({ scrollToSection }) {
                 href="https://linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-[#D1793E] transition-colors"
+                className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-teal-800 transition-colors"
                 aria-label="LinkedIn"
               >
                 <Linkedin size={18} />
@@ -73,46 +72,34 @@ export function Footer({ scrollToSection }) {
 
           {/* Quick Links */}
           <div>
-            <h4 className="mb-4 text-[#F3E8D8]">Quick Links</h4>
+            <h4 className="mb-4 text-[#F3E8D8]">LENKER</h4>
             <ul className="space-y-3">
-              <li>
-                <button
-                  onClick={() => scrollToSection("home")}
-                  className="text-[#E9DFCF] hover:text-[#D1793E] transition-colors"
-                >
-                  Home
-                </button>
-              </li>
+              
               <li>
                 <button
                   onClick={() => scrollToSection("about")}
-                  className="text-[#E9DFCF] hover:text-[#D1793E] transition-colors"
+                  className="text-[#E9DFCF] hover:text-teal-200  transition-colors"
                 >
-                  About Us
+                  Om oss
                 </button>
               </li>
               <li>
                 <button
                   onClick={() => scrollToSection("menu")}
-                  className="text-[#E9DFCF] hover:text-[#D1793E] transition-colors"
+                  className="text-[#E9DFCF] hover:text-teal-200  transition-colors"
                 >
-                  Our Menu
+                  Vår meny
                 </button>
               </li>
               <li>
-                <button
-                  onClick={() => scrollToSection("blog")}
-                  className="text-[#E9DFCF] hover:text-[#D1793E] transition-colors"
-                >
-                  Blog & Recipes
-                </button>
+               
               </li>
               <li>
                 <button
                   onClick={() => scrollToSection("contact")}
-                  className="text-[#E9DFCF] hover:text-[#D1793E] transition-colors"
+                  className="text-[#E9DFCF] hover:text-teal-200  transition-colors"
                 >
-                  Contact
+                  Kontakt
                 </button>
               </li>
             </ul>
@@ -120,31 +107,23 @@ export function Footer({ scrollToSection }) {
 
           {/* Services */}
           <div>
-            <h4 className="mb-4 text-[#F3E8D8]">Services</h4>
+            <h4 className="mb-4 text-[#F3E8D8]">ARRANGEMENTER</h4>
             <ul className="space-y-3 text-[#E9DFCF]">
               <li>
-                <a href="#" className="hover:text-[#D1793E] transition-colors">
-                  Private Dining
+                <a href="#" className="hover:text-teal-200 transition-colors">
+                  Private Selskap
                 </a>
               </li>
+            
               <li>
-                <a href="#" className="hover:text-[#D1793E] transition-colors">
-                  Event Catering
+                <a href="#" className="hover:text-teal-200  transition-colors">
+                  Bryllup
                 </a>
               </li>
+              
               <li>
-                <a href="#" className="hover:text-[#D1793E] transition-colors">
-                  Wedding Packages
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-[#D1793E] transition-colors">
-                  Corporate Events
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-[#D1793E] transition-colors">
-                  Cooking Classes
+                <a href="#" className="hover:text-teal-200  transition-colors">
+                  Matlaginskurs
                 </a>
               </li>
             </ul>
@@ -152,38 +131,26 @@ export function Footer({ scrollToSection }) {
 
           {/* Legal & Resources */}
           <div>
-            <h4 className="mb-4 text-[#F3E8D8]">Legal & Info</h4>
+            <h4 className="mb-4 text-[#F3E8D8]"> INFORMASJON</h4>
             <ul className="space-y-3 text-[#E9DFCF]">
               <li>
-                <a href="#" className="hover:text-[#D1793E] transition-colors">
-                  Privacy Policy
+                <a href="#" className="hover:text-teal-200  transition-colors">
+                  La Maison Konsern
                 </a>
               </li>
+              
               <li>
-                <a href="#" className="hover:text-[#D1793E] transition-colors">
-                  Terms of Service
+                <a href="#" className="hover:text-teal-200  transition-colors">
+                  Tilkomst / Våre lokaler
                 </a>
               </li>
+             
               <li>
-                <a href="#" className="hover:text-[#D1793E] transition-colors">
-                  Accessibility
+                <a href="#" className="hover:text-teal-200  transition-colors">
+                  Jobb hos oss
                 </a>
               </li>
-              <li>
-                <a href="#" className="hover:text-[#D1793E] transition-colors">
-                  Dietary Information
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-[#D1793E] transition-colors">
-                  Career Opportunities
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-[#D1793E] transition-colors">
-                  Style Guide
-                </a>
-              </li>
+              
             </ul>
           </div>
         </div>
@@ -191,19 +158,19 @@ export function Footer({ scrollToSection }) {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-[#E9DFCF] text-sm">
-            &copy; 2025 La Maison Joblòp All rights reserved.
+            &copy; 2025 La Maison Joblòp / All rights reserved.
           </p>
           <div className="flex gap-6 text-sm text-[#E9DFCF]">
-            <a href="#" className="hover:text-[#D1793E] transition-colors">
-              License Info
+            <a href="#" className="hover:text-teal-200  transition-colors">
+              Åshild
             </a>
             <span>|</span>
-            <a href="#" className="hover:text-[#D1793E] transition-colors">
-              Site Map
+            <a href="#" className="hover:text-teal-200  transition-colors">
+             Kodehode
             </a>
             <span>|</span>
-            <a href="#" className="hover:text-[#D1793E] transition-colors">
-              Credits
+            <a href="#" className="hover:text-teal-200  transition-colors">
+              2025
             </a>
           </div>
         </div>
