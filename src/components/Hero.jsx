@@ -6,7 +6,7 @@ export default function Hero() {
       <div className=" mt-0 w-140 h-50 ">
         <img
           src={logo}
-          alt="Signaturrett"
+          alt="Restaurant logo"
           className="object-cover w-full h-full"
         />
       </div>

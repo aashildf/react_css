@@ -20,7 +20,7 @@ export const dishes = [
     pris: "159 kr",
     ingredienser: "Spaghetti, kjøttsaus, parmesan",
     kategori: "Hovedrett",
-    image: { spaghetti },
+    image: spaghetti ,
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ export const dishes = [
     pris: "129 kr",
     ingredienser: "Kylling, fløte, gulrøtter, selleri",
     kategori: "Forrett",
-    image: { soup },
+    image: soup,
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ export const dishes = [
     pris: "169 kr",
     ingredienser: "Tomatsaus, mozzarella, basilikum",
     kategori: "Hovedrett",
-    image: {pizza},
+    image: pizza,
   },
   {
     id: 4,
@@ -44,7 +44,7 @@ export const dishes = [
     pris: "229 kr",
     ingredienser: "Laks, tunfisk, reker, ris",
     kategori: "Hovedrett",
-    image:{sushi},
+    image:sushi,
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ export const dishes = [
     pris: "139 kr",
     ingredienser: "Romanosalat, kylling, parmesan, dressing",
     kategori: "Forrett",
-    image: {salad},
+    image: salad,
   },
   {
     id: 6,
@@ -60,7 +60,7 @@ export const dishes = [
     pris: "89 kr",
     ingredienser: "Brownie, vaniljeis, sjokoladesaus",
     kategori: "Dessert",
-    image: {brownie},
+    image: brownie,
   },
   {
     id: 7,
@@ -68,7 +68,7 @@ export const dishes = [
     pris: "199 kr",
     ingredienser: "Kjøttdeig, mais, ost, guacamole",
     kategori: "Hovedrett",
-    image: {taco},
+    image: taco,
   },
   {
     id: 8,
@@ -76,7 +76,7 @@ export const dishes = [
     pris: "99 kr",
     ingredienser: "Pannekaker, jordbærsyltetøy, sukker",
     kategori: "Dessert",
-    image: {pancake},
+    image: pancake,
   },
   {
     id: 9,
@@ -84,7 +84,7 @@ export const dishes = [
     pris: "149 kr",
     ingredienser: "Reker, sitron, dill, brød",
     kategori: "Forrett",
-    image: {shrimp},
+    image: shrimp,
   },
   {
     id: 10,
@@ -92,7 +92,7 @@ export const dishes = [
     pris: "289 kr",
     ingredienser: "Entrecôte, asparges, poteter, peppersaus",
     kategori: "Hovedrett",
-    image: {entrecote},
+    image: entrecote,
   },
   {
     id: 11,
@@ -100,6 +100,6 @@ export const dishes = [
     pris: "125 kr",
     ingredienser: "Sjokolade, med krem",
     kategori: "Dessert",
-    image: {sjokolade},
+    image: sjokolade,
   },
 ];
