@@ -19,7 +19,7 @@ export default function Hero() {
         />
       </div>
 
-      <button className="px-10 mt-7 py-4 border-2 border-[#F3E8D8] text-[#F3E8D8] rounded-full hover:bg-[#F3E8D8]/10 transition-all duration-300 backdrop-blur-sm cursor-pointer">
+      <button className="px-10 mt-7 py-4 border-2 border-[#F3E8D8] text-[#F3E8D8] rounded-full hover:bg-[#F3E8D8] hover:text-black transition-all duration-300 backdrop-blur-sm cursor-pointer">
         Book et bord
       </button>
     </div>
