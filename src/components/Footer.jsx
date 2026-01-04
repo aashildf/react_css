@@ -9,7 +9,6 @@ export function Footer({ scrollToSection }) {
     <footer className="w-full bg-[#493927] text-white py-8 border-t border-white/10">
       <div className=" px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
-          {/* Brand */}
           <div>
             <h3
               className="text-2xl mb-4 tracking-tight text-[#F3E8D8]"
@@ -70,7 +69,7 @@ export function Footer({ scrollToSection }) {
             </div>
           </div>
 
-          {/* Quick Links */}
+          {/* lenker */}
           <div>
             <h4 className="mb-4 text-[#F3E8D8]">LENKER</h4>
             <ul className="space-y-3">
@@ -105,7 +104,7 @@ export function Footer({ scrollToSection }) {
             </ul>
           </div>
 
-          {/* Services */}
+          {/* arrangementer*/}
           <div>
             <h4 className="mb-4 text-[#F3E8D8]">ARRANGEMENTER</h4>
             <ul className="space-y-3 text-[#E9DFCF]">
@@ -129,7 +128,7 @@ export function Footer({ scrollToSection }) {
             </ul>
           </div>
 
-          {/* Legal & Resources */}
+          {/* imformasjon*/}
           <div>
             <h4 className="mb-4 text-[#F3E8D8]"> INFORMASJON</h4>
             <ul className="space-y-3 text-[#E9DFCF]">

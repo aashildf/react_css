@@ -3,7 +3,7 @@
 
 import DishCard from "./DishCard";
 import { useState } from "react";
-// import styles from "./Menu.module.css";
+
 
 export default function Menu({ dishes}) {
   const [activeTab, setActiveTab] = useState("forrett");
@@ -25,7 +25,7 @@ export default function Menu({ dishes}) {
         <div className="flex justify-center space-x-6 px-4 ">
           <button
             onClick={() => setActiveTab("forrett")}
-            className={`px-6 py-3 text-3xl font-bold tracking-wide transition-all duration-200 ${
+            className={`cursor-pointer px-6 py-3 text-3xl font-bold tracking-wide transition-all duration-200 ${
               activeTab === "forrett"
                 ? "text-white font-medium"
                 : "text-teal-700 hover:text-white"
@@ -35,7 +35,7 @@ export default function Menu({ dishes}) {
           </button>
           <button
             onClick={() => setActiveTab("hovedrett")}
-            className={`px-6 py-3 text-3xl font-bold tracking-wide transition-all duration-200 ${
+            className={`cursor-pointer px-6 py-3 text-3xl font-bold tracking-wide transition-all duration-200 ${
               activeTab === "hovedrett"
                 ? "text-white font-medium"
                 : "text-teal-700 hover:text-white"
@@ -45,7 +45,7 @@ export default function Menu({ dishes}) {
           </button>
           <button
             onClick={() => setActiveTab("dessert")}
-            className={`px-6 py-3 text-3xl font-bold tracking-wide transition-all duration-200 ${
+            className={`cursor-pointer px-6 py-3 text-3xl font-bold tracking-wide transition-all duration-200 ${
               activeTab === "dessert"
                 ? "text-white font-medium"
                 : "text-teal-700 hover:text-white"
